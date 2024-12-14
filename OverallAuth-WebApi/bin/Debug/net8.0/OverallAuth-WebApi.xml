@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>OverallAuth-WebApi</name>
+    </assembly>
+    <members>
+        <member name="T:OverallAuth_WebApi.Controllers.SysMenuController">
+            <summary>
+            系统模块
+            </summary>
+        </member>
+        <member name="M:OverallAuth_WebApi.Controllers.SysMenuController.GetAllMenu">
+            <summary>
+            获取所有模块
+            </summary>
+        </member>
+        <member name="M:OverallAuth_WebApi.Controllers.SysMenuController.GetMenuById(System.String)">
+            <summary>
+            获取指定模块
+            </summary>
+            <param name="Id">模块Id</param>
+        </member>
+        <member name="T:OverallAuth_WebApi.PlugInUnit.SwaggerPlugInUnit">
+            <summary>
+            swagger插件
+            </summary>
+        </member>
+        <member name="M:OverallAuth_WebApi.PlugInUnit.SwaggerPlugInUnit.InitSwagger(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            初始化Swagger
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:OverallAuth_WebApi.PlugInUnit.SwaggerPlugInUnit.InitSwagger(Microsoft.AspNetCore.Builder.WebApplication)">
+            <summary>
+            swagger加入路由和管道
+            </summary>
+            <param name="app"></param>
+        </member>
+    </members>
+</doc>

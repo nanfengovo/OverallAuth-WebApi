@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OverallAuth-WebApi", "OverallAuth-WebApi\OverallAuth-WebApi.csproj", "{BB1F9C6D-71EA-441F-A688-2D7EEC233217}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utility", "Utility\Utility.csproj", "{3390BD6B-DE9D-49FE-9B34-8211D63EE63F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB1F9C6D-71EA-441F-A688-2D7EEC233217}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB1F9C6D-71EA-441F-A688-2D7EEC233217}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB1F9C6D-71EA-441F-A688-2D7EEC233217}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB1F9C6D-71EA-441F-A688-2D7EEC233217}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3390BD6B-DE9D-49FE-9B34-8211D63EE63F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3390BD6B-DE9D-49FE-9B34-8211D63EE63F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3390BD6B-DE9D-49FE-9B34-8211D63EE63F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3390BD6B-DE9D-49FE-9B34-8211D63EE63F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D239EF72-14C1-45B0-A191-5D13A1AAEC47}
+	EndGlobalSection
+EndGlobal
