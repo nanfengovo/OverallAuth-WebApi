@@ -19,6 +19,9 @@ namespace OverallAuth_WebApi
             //自定义swagger中间件
             builder.Services.InitSwagger();
 
+            //自定义JWT中间件
+            builder.Services.InitJWT();
+
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -28,6 +31,9 @@ namespace OverallAuth_WebApi
                 //app.UseSwaggerUI();
                 app.InitSwagger();
             }
+
+            //认证中间件
+            app.UseAuthentication();
 
             app.UseAuthorization();
 

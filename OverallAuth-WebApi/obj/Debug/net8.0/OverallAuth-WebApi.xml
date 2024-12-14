@@ -20,6 +20,96 @@
             </summary>
             <param name="Id">模块Id</param>
         </member>
+        <member name="M:OverallAuth_WebApi.Controllers.SysMenuController.CheckJwt">
+            <summary>
+            检查jwt
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:OverallAuth_WebApi.Controllers.SysMenuController.UnCheckJwt">
+            <summary>
+            不检查jwt
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:OverallAuth_WebApi.Model.JwtSettingModel">
+            <summary>
+            jwt配置模型
+            </summary>
+        </member>
+        <member name="P:OverallAuth_WebApi.Model.JwtSettingModel.SecurityKey">
+            <summary>
+            密钥
+            </summary>
+        </member>
+        <member name="P:OverallAuth_WebApi.Model.JwtSettingModel.ENAlgorithm">
+            <summary>
+            加密算法
+            </summary>
+        </member>
+        <member name="P:OverallAuth_WebApi.Model.JwtSettingModel.Issuer">
+            <summary>
+            颁发者
+            </summary>
+        </member>
+        <member name="P:OverallAuth_WebApi.Model.JwtSettingModel.Audience">
+            <summary>
+            接收者
+            </summary>
+        </member>
+        <member name="P:OverallAuth_WebApi.Model.JwtSettingModel.ExpireSeconds">
+            <summary>
+            过期时间    单位：秒
+            </summary>
+        </member>
+        <member name="T:OverallAuth_WebApi.PlugInUnit.AppSettingsPlugInUnit">
+            <summary>
+            AppSettings配置文件插件
+            </summary>
+        </member>
+        <member name="P:OverallAuth_WebApi.PlugInUnit.AppSettingsPlugInUnit.Configuration">
+            <summary>
+            声明配置属性
+            </summary>
+        </member>
+        <member name="M:OverallAuth_WebApi.PlugInUnit.AppSettingsPlugInUnit.#cctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="M:OverallAuth_WebApi.PlugInUnit.AppSettingsPlugInUnit.GetJson(System.String,System.String)">
+            <summary>
+            获得配置文件的对象值
+            </summary>
+            <param name="jsonPath">文件路径</param>
+            <param name="key"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OverallAuth_WebApi.PlugInUnit.AppSettingsPlugInUnit.GetMysqlConnection">
+            <summary>
+            获取数据库连接字符串
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:OverallAuth_WebApi.PlugInUnit.AppSettingsPlugInUnit.GetNode``1(System.String)">
+            <summary>
+            根据节点名称获取配置模型
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="Node"></param>
+            <returns></returns>
+        </member>
+        <member name="T:OverallAuth_WebApi.PlugInUnit.JwtPlugInUnit">
+            <summary>
+            jwt插件
+            </summary>
+        </member>
+        <member name="M:OverallAuth_WebApi.PlugInUnit.JwtPlugInUnit.InitJWT(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            初始化JWT
+            </summary>
+            <param name="services"></param>
+        </member>
         <member name="T:OverallAuth_WebApi.PlugInUnit.SwaggerPlugInUnit">
             <summary>
             swagger插件

@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Utility.Enum;
 
@@ -27,5 +28,26 @@ namespace OverallAuth_WebApi.Controllers
         [HttpGet]
         public void GetMenuById(string Id) { }
 
+        /// <summary>
+        /// 检查jwt
+        /// </summary>
+        /// <returns></returns>
+        [Authorize]
+        [HttpGet]
+        public string CheckJwt()
+        {
+            return "成功！";
+        }
+
+        /// <summary>
+        /// 不检查jwt
+        /// </summary>
+        /// <returns></returns>
+        [AllowAnonymous]
+        [HttpGet]
+        public string UnCheckJwt()
+        {
+            return "成功";
+        }
     }
 }

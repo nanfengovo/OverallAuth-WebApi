@@ -7,16 +7,36 @@
       "RelativeMoniker": "D:0:0:{BB1F9C6D-71EA-441F-A688-2D7EEC233217}|OverallAuth-WebApi\\OverallAuth-WebApi.csproj|solutionrelative:overallauth-webapi\\controllers\\sysmenucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{BB1F9C6D-71EA-441F-A688-2D7EEC233217}|OverallAuth-WebApi\\OverallAuth-WebApi.csproj|e:\\code\\study\\webapi\\overallauth-webapi\\overallauth-webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB1F9C6D-71EA-441F-A688-2D7EEC233217}|OverallAuth-WebApi\\OverallAuth-WebApi.csproj|solutionrelative:overallauth-webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BB1F9C6D-71EA-441F-A688-2D7EEC233217}|OverallAuth-WebApi\\OverallAuth-WebApi.csproj|e:\\code\\study\\webapi\\overallauth-webapi\\overallauth-webapi\\pluginunit\\swaggerpluginunit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BB1F9C6D-71EA-441F-A688-2D7EEC233217}|OverallAuth-WebApi\\OverallAuth-WebApi.csproj|solutionrelative:overallauth-webapi\\pluginunit\\swaggerpluginunit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BB1F9C6D-71EA-441F-A688-2D7EEC233217}|OverallAuth-WebApi\\OverallAuth-WebApi.csproj|e:\\code\\study\\webapi\\overallauth-webapi\\overallauth-webapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB1F9C6D-71EA-441F-A688-2D7EEC233217}|OverallAuth-WebApi\\OverallAuth-WebApi.csproj|solutionrelative:overallauth-webapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BB1F9C6D-71EA-441F-A688-2D7EEC233217}|OverallAuth-WebApi\\OverallAuth-WebApi.csproj|e:\\code\\study\\webapi\\overallauth-webapi\\overallauth-webapi\\model\\jwtsettingmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB1F9C6D-71EA-441F-A688-2D7EEC233217}|OverallAuth-WebApi\\OverallAuth-WebApi.csproj|solutionrelative:overallauth-webapi\\model\\jwtsettingmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BB1F9C6D-71EA-441F-A688-2D7EEC233217}|OverallAuth-WebApi\\OverallAuth-WebApi.csproj|e:\\code\\study\\webapi\\overallauth-webapi\\overallauth-webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB1F9C6D-71EA-441F-A688-2D7EEC233217}|OverallAuth-WebApi\\OverallAuth-WebApi.csproj|solutionrelative:overallauth-webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BB1F9C6D-71EA-441F-A688-2D7EEC233217}|OverallAuth-WebApi\\OverallAuth-WebApi.csproj|e:\\code\\study\\webapi\\overallauth-webapi\\overallauth-webapi\\pluginunit\\appsettingspluginunit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB1F9C6D-71EA-441F-A688-2D7EEC233217}|OverallAuth-WebApi\\OverallAuth-WebApi.csproj|solutionrelative:overallauth-webapi\\pluginunit\\appsettingspluginunit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB1F9C6D-71EA-441F-A688-2D7EEC233217}|OverallAuth-WebApi\\OverallAuth-WebApi.csproj|e:\\code\\study\\webapi\\overallauth-webapi\\overallauth-webapi\\pluginunit\\jwtpluginunit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB1F9C6D-71EA-441F-A688-2D7EEC233217}|OverallAuth-WebApi\\OverallAuth-WebApi.csproj|solutionrelative:overallauth-webapi\\pluginunit\\jwtpluginunit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB1F9C6D-71EA-441F-A688-2D7EEC233217}|OverallAuth-WebApi\\OverallAuth-WebApi.csproj|e:\\code\\study\\webapi\\overallauth-webapi\\overallauth-webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BB1F9C6D-71EA-441F-A688-2D7EEC233217}|OverallAuth-WebApi\\OverallAuth-WebApi.csproj|solutionrelative:overallauth-webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB1F9C6D-71EA-441F-A688-2D7EEC233217}|OverallAuth-WebApi\\OverallAuth-WebApi.csproj|e:\\code\\study\\webapi\\overallauth-webapi\\overallauth-webapi\\overallauth-webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{BB1F9C6D-71EA-441F-A688-2D7EEC233217}|OverallAuth-WebApi\\OverallAuth-WebApi.csproj|solutionrelative:overallauth-webapi\\overallauth-webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB1F9C6D-71EA-441F-A688-2D7EEC233217}|OverallAuth-WebApi\\OverallAuth-WebApi.csproj|e:\\code\\study\\webapi\\overallauth-webapi\\overallauth-webapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB1F9C6D-71EA-441F-A688-2D7EEC233217}|OverallAuth-WebApi\\OverallAuth-WebApi.csproj|solutionrelative:overallauth-webapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3390BD6B-DE9D-49FE-9B34-8211D63EE63F}|Utility\\Utility.csproj|e:\\code\\study\\webapi\\overallauth-webapi\\utility\\enum\\modeulegroupenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,8 +58,60 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 9,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AppSettingsPlugInUnit.cs",
+              "DocumentMoniker": "E:\\Code\\Study\\Webapi\\OverallAuth-WebApi\\OverallAuth-WebApi\\PlugInUnit\\AppSettingsPlugInUnit.cs",
+              "RelativeDocumentMoniker": "OverallAuth-WebApi\\PlugInUnit\\AppSettingsPlugInUnit.cs",
+              "ToolTip": "E:\\Code\\Study\\Webapi\\OverallAuth-WebApi\\OverallAuth-WebApi\\PlugInUnit\\AppSettingsPlugInUnit.cs*",
+              "RelativeToolTip": "OverallAuth-WebApi\\PlugInUnit\\AppSettingsPlugInUnit.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T03:26:05.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "JwtPlugInUnit.cs",
+              "DocumentMoniker": "E:\\Code\\Study\\Webapi\\OverallAuth-WebApi\\OverallAuth-WebApi\\PlugInUnit\\JwtPlugInUnit.cs",
+              "RelativeDocumentMoniker": "OverallAuth-WebApi\\PlugInUnit\\JwtPlugInUnit.cs",
+              "ToolTip": "E:\\Code\\Study\\Webapi\\OverallAuth-WebApi\\OverallAuth-WebApi\\PlugInUnit\\JwtPlugInUnit.cs*",
+              "RelativeToolTip": "OverallAuth-WebApi\\PlugInUnit\\JwtPlugInUnit.cs*",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAgwCMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T03:25:30.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "JwtSettingModel.cs",
+              "DocumentMoniker": "E:\\Code\\Study\\Webapi\\OverallAuth-WebApi\\OverallAuth-WebApi\\Model\\JwtSettingModel.cs",
+              "RelativeDocumentMoniker": "OverallAuth-WebApi\\Model\\JwtSettingModel.cs",
+              "ToolTip": "E:\\Code\\Study\\Webapi\\OverallAuth-WebApi\\OverallAuth-WebApi\\Model\\JwtSettingModel.cs*",
+              "RelativeToolTip": "OverallAuth-WebApi\\Model\\JwtSettingModel.cs*",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAQwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T02:49:39.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\Code\\Study\\Webapi\\OverallAuth-WebApi\\OverallAuth-WebApi\\appsettings.json",
+              "RelativeDocumentMoniker": "OverallAuth-WebApi\\appsettings.json",
+              "ToolTip": "E:\\Code\\Study\\Webapi\\OverallAuth-WebApi\\OverallAuth-WebApi\\appsettings.json*",
+              "RelativeToolTip": "OverallAuth-WebApi\\appsettings.json*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-14T02:45:35.102Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
@@ -54,20 +126,59 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SwaggerPlugInUnit.cs",
+              "DocumentMoniker": "E:\\Code\\Study\\Webapi\\OverallAuth-WebApi\\OverallAuth-WebApi\\PlugInUnit\\SwaggerPlugInUnit.cs",
+              "RelativeDocumentMoniker": "OverallAuth-WebApi\\PlugInUnit\\SwaggerPlugInUnit.cs",
+              "ToolTip": "E:\\Code\\Study\\Webapi\\OverallAuth-WebApi\\OverallAuth-WebApi\\PlugInUnit\\SwaggerPlugInUnit.cs*",
+              "RelativeToolTip": "OverallAuth-WebApi\\PlugInUnit\\SwaggerPlugInUnit.cs*",
+              "ViewState": "AgIAACEAAAAAAAAAAAAgwD8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T17:54:50.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Code\\Study\\Webapi\\OverallAuth-WebApi\\OverallAuth-WebApi\\Program.cs",
+              "RelativeDocumentMoniker": "OverallAuth-WebApi\\Program.cs",
+              "ToolTip": "E:\\Code\\Study\\Webapi\\OverallAuth-WebApi\\OverallAuth-WebApi\\Program.cs*",
+              "RelativeToolTip": "OverallAuth-WebApi\\Program.cs*",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwCMAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T17:52:07.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "SysMenuController.cs",
               "DocumentMoniker": "E:\\Code\\Study\\Webapi\\OverallAuth-WebApi\\OverallAuth-WebApi\\Controllers\\SysMenuController.cs",
               "RelativeDocumentMoniker": "OverallAuth-WebApi\\Controllers\\SysMenuController.cs",
-              "ToolTip": "E:\\Code\\Study\\Webapi\\OverallAuth-WebApi\\OverallAuth-WebApi\\Controllers\\SysMenuController.cs",
-              "RelativeToolTip": "OverallAuth-WebApi\\Controllers\\SysMenuController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAowBkAAAAhAAAAAAAAAA==",
+              "ToolTip": "E:\\Code\\Study\\Webapi\\OverallAuth-WebApi\\OverallAuth-WebApi\\Controllers\\SysMenuController.cs*",
+              "RelativeToolTip": "OverallAuth-WebApi\\Controllers\\SysMenuController.cs*",
+              "ViewState": "AgIAABUAAAAAAAAAAADwvyoAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-14T01:59:36.698Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
+              "Title": "OverallAuth-WebApi",
+              "DocumentMoniker": "E:\\Code\\Study\\Webapi\\OverallAuth-WebApi\\OverallAuth-WebApi\\OverallAuth-WebApi.csproj",
+              "RelativeDocumentMoniker": "OverallAuth-WebApi\\OverallAuth-WebApi.csproj",
+              "ToolTip": "E:\\Code\\Study\\Webapi\\OverallAuth-WebApi\\OverallAuth-WebApi\\OverallAuth-WebApi.csproj*",
+              "RelativeToolTip": "OverallAuth-WebApi\\OverallAuth-WebApi.csproj*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-14T02:45:38.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "E:\\Code\\Study\\Webapi\\OverallAuth-WebApi\\OverallAuth-WebApi\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "OverallAuth-WebApi\\Controllers\\WeatherForecastController.cs",
@@ -80,7 +191,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "ModeuleGroupEnum.cs",
               "DocumentMoniker": "E:\\Code\\Study\\Webapi\\OverallAuth-WebApi\\Utility\\Enum\\ModeuleGroupEnum.cs",
               "RelativeDocumentMoniker": "Utility\\Enum\\ModeuleGroupEnum.cs",
@@ -93,7 +204,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "Class1.cs",
               "DocumentMoniker": "E:\\Code\\Study\\Webapi\\OverallAuth-WebApi\\Utility\\Class1.cs",
               "RelativeDocumentMoniker": "Utility\\Class1.cs",
@@ -106,33 +217,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SwaggerPlugInUnit.cs",
-              "DocumentMoniker": "E:\\Code\\Study\\Webapi\\OverallAuth-WebApi\\OverallAuth-WebApi\\PlugInUnit\\SwaggerPlugInUnit.cs",
-              "RelativeDocumentMoniker": "OverallAuth-WebApi\\PlugInUnit\\SwaggerPlugInUnit.cs",
-              "ToolTip": "E:\\Code\\Study\\Webapi\\OverallAuth-WebApi\\OverallAuth-WebApi\\PlugInUnit\\SwaggerPlugInUnit.cs",
-              "RelativeToolTip": "OverallAuth-WebApi\\PlugInUnit\\SwaggerPlugInUnit.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAADgvyIAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-13T17:54:50.503Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\Code\\Study\\Webapi\\OverallAuth-WebApi\\OverallAuth-WebApi\\Program.cs",
-              "RelativeDocumentMoniker": "OverallAuth-WebApi\\Program.cs",
-              "ToolTip": "E:\\Code\\Study\\Webapi\\OverallAuth-WebApi\\OverallAuth-WebApi\\Program.cs",
-              "RelativeToolTip": "OverallAuth-WebApi\\Program.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAA3wBwAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-13T17:52:07.334Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "WeatherForecast.cs",
               "DocumentMoniker": "E:\\Code\\Study\\Webapi\\OverallAuth-WebApi\\OverallAuth-WebApi\\WeatherForecast.cs",
               "RelativeDocumentMoniker": "OverallAuth-WebApi\\WeatherForecast.cs",

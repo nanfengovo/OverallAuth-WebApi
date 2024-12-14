@@ -1,6 +1,26 @@
 [
   {
     "ContainingType": "OverallAuth_WebApi.Controllers.SysMenuController",
+    "Method": "CheckJwt",
+    "RelativePath": "api/SysMenu/CheckJwt",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OverallAuth_WebApi.Controllers.SysMenuController",
     "Method": "GetAllMenu",
     "RelativePath": "api/SysMenu/GetAllMenu",
     "HttpMethod": "GET",
@@ -33,6 +53,26 @@
       {
         "Type": "System.Void",
         "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OverallAuth_WebApi.Controllers.SysMenuController",
+    "Method": "UnCheckJwt",
+    "RelativePath": "api/SysMenu/UnCheckJwt",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
         "StatusCode": 200
       }
     ]

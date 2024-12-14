@@ -34,3 +34,12 @@ E:\Code\Study\Webapi\OverallAuth-WebApi\OverallAuth-WebApi\bin\Debug\net8.0\Util
 E:\Code\Study\Webapi\OverallAuth-WebApi\OverallAuth-WebApi\bin\Debug\net8.0\Utility.pdb
 E:\Code\Study\Webapi\OverallAuth-WebApi\OverallAuth-WebApi\bin\Debug\net8.0\OverallAuth-WebApi.xml
 E:\Code\Study\Webapi\OverallAuth-WebApi\OverallAuth-WebApi\obj\Debug\net8.0\OverallAuth-WebApi.xml
+E:\Code\Study\Webapi\OverallAuth-WebApi\OverallAuth-WebApi\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\Code\Study\Webapi\OverallAuth-WebApi\OverallAuth-WebApi\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+E:\Code\Study\Webapi\OverallAuth-WebApi\OverallAuth-WebApi\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\Code\Study\Webapi\OverallAuth-WebApi\OverallAuth-WebApi\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+E:\Code\Study\Webapi\OverallAuth-WebApi\OverallAuth-WebApi\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+E:\Code\Study\Webapi\OverallAuth-WebApi\OverallAuth-WebApi\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\Code\Study\Webapi\OverallAuth-WebApi\OverallAuth-WebApi\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+E:\Code\Study\Webapi\OverallAuth-WebApi\OverallAuth-WebApi\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+E:\Code\Study\Webapi\OverallAuth-WebApi\OverallAuth-WebApi\obj\Debug\net8.0\OverallAuth-WebApi.sourcelink.json
