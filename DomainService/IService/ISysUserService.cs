@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Model.DomainModel;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -16,5 +17,11 @@ namespace DomainService.IService
         /// </summary>
         /// <returns></returns>
         string TestAutofac();
+
+        /// <summary>
+        /// 获取所有用户
+        /// </summary>
+        /// <returns></returns>
+        List<SysUser> GetAllUser();
     }
 }

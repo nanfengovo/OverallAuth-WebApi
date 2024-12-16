@@ -1,5 +1,7 @@
 ﻿using DomainService.IService;
+using Infrastructure;
 using Infrastructure.IRepository;
+using Model.DomainModel;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,6 +17,15 @@ namespace DomainService.Service
         public SysUserService(ISysUserRepository sysUserRepository)
         {
             _sysUserRepository = sysUserRepository;
+        }
+
+        /// <summary>
+        /// 查询所有用户
+        /// </summary>
+        /// <returns></returns>
+        public List<SysUser> GetAllUser()
+        {
+            return _sysUserRepository.GetAll(BaseSqlRepository.sysUser_selectAllSql);
         }
         #endregion
 

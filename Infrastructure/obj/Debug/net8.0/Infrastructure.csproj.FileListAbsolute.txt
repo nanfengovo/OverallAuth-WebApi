@@ -10,3 +10,7 @@ E:\Code\Study\Webapi\OverallAuth-WebApi\Infrastructure\obj\Debug\net8.0\Infrastr
 E:\Code\Study\Webapi\OverallAuth-WebApi\Infrastructure\obj\Debug\net8.0\refint\Infrastructure.dll
 E:\Code\Study\Webapi\OverallAuth-WebApi\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
 E:\Code\Study\Webapi\OverallAuth-WebApi\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll
+E:\Code\Study\Webapi\OverallAuth-WebApi\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.AssemblyReference.cache
+E:\Code\Study\Webapi\OverallAuth-WebApi\Infrastructure\bin\Debug\net8.0\Model.dll
+E:\Code\Study\Webapi\OverallAuth-WebApi\Infrastructure\bin\Debug\net8.0\Model.pdb
+E:\Code\Study\Webapi\OverallAuth-WebApi\Infrastructure\obj\Debug\net8.0\Infrastr.15EFFBFE.Up2Date

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Model.DomainModel;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,7 +10,7 @@ namespace Infrastructure.IRepository
     /// <summary>
     /// 用户服务仓储接口
     /// </summary>
-    public interface ISysUserRepository
+    public interface ISysUserRepository:IRepository<SysUser>
     {
         /// <summary>
         /// Autofac测试

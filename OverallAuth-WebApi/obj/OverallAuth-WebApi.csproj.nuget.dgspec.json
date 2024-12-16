@@ -99,7 +99,11 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "E:\\Code\\Study\\Webapi\\OverallAuth-WebApi\\Model\\Model.csproj": {
+                "projectPath": "E:\\Code\\Study\\Webapi\\OverallAuth-WebApi\\Model\\Model.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -116,6 +120,24 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.35, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.6, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

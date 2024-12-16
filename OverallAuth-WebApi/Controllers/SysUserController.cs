@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Model.BusinessModel.InPut;
+using Model.DomainModel;
 using OverallAuth_WebApi.PlugInUnit;
 using Utility.Enum;
 
@@ -56,6 +57,17 @@ namespace OverallAuth_WebApi.Controllers
             var loginResult = JwtPlugInUnit.BuildToken(new LoginInput { UserName = userName, Password = password });
 
             return loginResult.Token ?? string.Empty;
+        }
+
+        /// <summary>
+        /// 获取所有用户
+        /// </summary>
+        /// <returns></returns>
+        [HttpGet]
+        [AllowAnonymous]
+        public List<SysUser> GetAllUsers()
+        {
+            return _sysUserService.GetAllUser();
         }
     }
 }

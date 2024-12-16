@@ -72,6 +72,12 @@
             <param name="userName">用户名</param>
             <param name="password">密码</param>
         </member>
+        <member name="M:OverallAuth_WebApi.Controllers.SysUserController.GetAllUsers">
+            <summary>
+            获取所有用户
+            </summary>
+            <returns></returns>
+        </member>
         <member name="T:OverallAuth_WebApi.Model.JwtSettingModel">
             <summary>
             jwt配置模型
