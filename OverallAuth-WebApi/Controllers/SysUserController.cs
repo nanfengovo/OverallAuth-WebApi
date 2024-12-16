@@ -69,5 +69,17 @@ namespace OverallAuth_WebApi.Controllers
         {
             return _sysUserService.GetAllUser();
         }
+
+        /// <summary>
+        /// 测试异常
+        /// </summary>
+        /// <returns></returns>
+        /// <exception cref="Exception"></exception>
+        [HttpGet]
+        [AllowAnonymous]
+        public string TestException()
+        {
+            throw new Exception("系统发生异常");
+        }
     }
 }

@@ -32,6 +32,12 @@ namespace OverallAuth_WebApi
             //自定义JWT中间件
             builder.Services.InitJWT();
 
+            //自定义全局异常处理
+            builder.Services.AddControllers(a =>
+            {
+                a.Filters.Add(typeof(ExceptionPlugIn));
+            });
+
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.

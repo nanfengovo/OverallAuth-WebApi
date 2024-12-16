@@ -1,11 +1,11 @@
-E:\Code\Study\Webapi\OverallAuth-WebApi\Model\bin\Debug\net8.0\Model.deps.json
-E:\Code\Study\Webapi\OverallAuth-WebApi\Model\bin\Debug\net8.0\Model.dll
-E:\Code\Study\Webapi\OverallAuth-WebApi\Model\bin\Debug\net8.0\Model.pdb
 E:\Code\Study\Webapi\OverallAuth-WebApi\Model\obj\Debug\net8.0\Model.GeneratedMSBuildEditorConfig.editorconfig
 E:\Code\Study\Webapi\OverallAuth-WebApi\Model\obj\Debug\net8.0\Model.AssemblyInfoInputs.cache
 E:\Code\Study\Webapi\OverallAuth-WebApi\Model\obj\Debug\net8.0\Model.AssemblyInfo.cs
 E:\Code\Study\Webapi\OverallAuth-WebApi\Model\obj\Debug\net8.0\Model.csproj.CoreCompileInputs.cache
 E:\Code\Study\Webapi\OverallAuth-WebApi\Model\obj\Debug\net8.0\Model.sourcelink.json
+E:\Code\Study\Webapi\OverallAuth-WebApi\Model\bin\Debug\net8.0\Model.deps.json
+E:\Code\Study\Webapi\OverallAuth-WebApi\Model\bin\Debug\net8.0\Model.dll
+E:\Code\Study\Webapi\OverallAuth-WebApi\Model\bin\Debug\net8.0\Model.pdb
 E:\Code\Study\Webapi\OverallAuth-WebApi\Model\obj\Debug\net8.0\Model.dll
 E:\Code\Study\Webapi\OverallAuth-WebApi\Model\obj\Debug\net8.0\refint\Model.dll
 E:\Code\Study\Webapi\OverallAuth-WebApi\Model\obj\Debug\net8.0\Model.pdb

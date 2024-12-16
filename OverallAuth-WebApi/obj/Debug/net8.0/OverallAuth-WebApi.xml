@@ -78,6 +78,13 @@
             </summary>
             <returns></returns>
         </member>
+        <member name="M:OverallAuth_WebApi.Controllers.SysUserController.TestException">
+            <summary>
+            测试异常
+            </summary>
+            <returns></returns>
+            <exception cref="T:System.Exception"></exception>
+        </member>
         <member name="T:OverallAuth_WebApi.Model.JwtSettingModel">
             <summary>
             jwt配置模型
@@ -192,6 +199,18 @@
             重写Autofac的Load方法
             </summary>
             <param name="containerBuilder"></param>
+        </member>
+        <member name="T:OverallAuth_WebApi.PlugIn.ExceptionPlugIn">
+            <summary>
+            全局异常捕获中间件
+            </summary>
+        </member>
+        <member name="M:OverallAuth_WebApi.PlugIn.ExceptionPlugIn.OnExceptionAsync(Microsoft.AspNetCore.Mvc.Filters.ExceptionContext)">
+            <summary>
+            全局异常捕获接口
+            </summary>
+            <param name="context"></param>
+            <returns></returns>
         </member>
     </members>
 </doc>
