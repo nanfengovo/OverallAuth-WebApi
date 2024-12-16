@@ -45,3 +45,10 @@ E:\Code\Study\Webapi\OverallAuth-WebApi\OverallAuth-WebApi\bin\Debug\net8.0\Syst
 E:\Code\Study\Webapi\OverallAuth-WebApi\OverallAuth-WebApi\obj\Debug\net8.0\OverallAuth-WebApi.sourcelink.json
 E:\Code\Study\Webapi\OverallAuth-WebApi\OverallAuth-WebApi\bin\Debug\net8.0\Model.dll
 E:\Code\Study\Webapi\OverallAuth-WebApi\OverallAuth-WebApi\bin\Debug\net8.0\Model.pdb
+E:\Code\Study\Webapi\OverallAuth-WebApi\OverallAuth-WebApi\bin\Debug\net8.0\Autofac.dll
+E:\Code\Study\Webapi\OverallAuth-WebApi\OverallAuth-WebApi\bin\Debug\net8.0\Autofac.Extensions.DependencyInjection.dll
+E:\Code\Study\Webapi\OverallAuth-WebApi\OverallAuth-WebApi\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\Code\Study\Webapi\OverallAuth-WebApi\OverallAuth-WebApi\bin\Debug\net8.0\DomainService.dll
+E:\Code\Study\Webapi\OverallAuth-WebApi\OverallAuth-WebApi\bin\Debug\net8.0\Infrastructure.dll
+E:\Code\Study\Webapi\OverallAuth-WebApi\OverallAuth-WebApi\bin\Debug\net8.0\DomainService.pdb
+E:\Code\Study\Webapi\OverallAuth-WebApi\OverallAuth-WebApi\bin\Debug\net8.0\Infrastructure.pdb

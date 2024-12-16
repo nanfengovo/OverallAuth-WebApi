@@ -1,0 +1,12 @@
+E:\Code\Study\Webapi\OverallAuth-WebApi\CoreDomain\bin\Debug\net8.0\CoreDomain.deps.json
+E:\Code\Study\Webapi\OverallAuth-WebApi\CoreDomain\bin\Debug\net8.0\CoreDomain.dll
+E:\Code\Study\Webapi\OverallAuth-WebApi\CoreDomain\bin\Debug\net8.0\CoreDomain.pdb
+E:\Code\Study\Webapi\OverallAuth-WebApi\CoreDomain\obj\Debug\net8.0\CoreDomain.GeneratedMSBuildEditorConfig.editorconfig
+E:\Code\Study\Webapi\OverallAuth-WebApi\CoreDomain\obj\Debug\net8.0\CoreDomain.AssemblyInfoInputs.cache
+E:\Code\Study\Webapi\OverallAuth-WebApi\CoreDomain\obj\Debug\net8.0\CoreDomain.AssemblyInfo.cs
+E:\Code\Study\Webapi\OverallAuth-WebApi\CoreDomain\obj\Debug\net8.0\CoreDomain.csproj.CoreCompileInputs.cache
+E:\Code\Study\Webapi\OverallAuth-WebApi\CoreDomain\obj\Debug\net8.0\CoreDomain.sourcelink.json
+E:\Code\Study\Webapi\OverallAuth-WebApi\CoreDomain\obj\Debug\net8.0\CoreDomain.dll
+E:\Code\Study\Webapi\OverallAuth-WebApi\CoreDomain\obj\Debug\net8.0\refint\CoreDomain.dll
+E:\Code\Study\Webapi\OverallAuth-WebApi\CoreDomain\obj\Debug\net8.0\CoreDomain.pdb
+E:\Code\Study\Webapi\OverallAuth-WebApi\CoreDomain\obj\Debug\net8.0\ref\CoreDomain.dll

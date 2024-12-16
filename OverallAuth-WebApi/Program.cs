@@ -1,4 +1,7 @@
 
+using Autofac;
+using Autofac.Extensions.DependencyInjection;
+using OverallAuth_WebApi.PlugIn;
 using OverallAuth_WebApi.PlugInUnit;
 
 namespace OverallAuth_WebApi
@@ -8,6 +11,13 @@ namespace OverallAuth_WebApi
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+
+            //×¢²áAutofac
+            builder.Host.UseServiceProviderFactory(new AutofacServiceProviderFactory()).ConfigureContainer<ContainerBuilder>(builder =>
+            {
+                builder.RegisterModule(new AutofacPlugIn());
+            });
+
 
             // Add services to the container.
 

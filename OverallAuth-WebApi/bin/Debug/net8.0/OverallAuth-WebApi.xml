@@ -48,6 +48,23 @@
             用户模块
             </summary>
         </member>
+        <member name="F:OverallAuth_WebApi.Controllers.SysUserController._sysUserService">
+            <summary>
+            用户服务
+            </summary>
+        </member>
+        <member name="M:OverallAuth_WebApi.Controllers.SysUserController.#ctor(DomainService.IService.ISysUserService)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="sysUserService">用户服务</param>
+        </member>
+        <member name="M:OverallAuth_WebApi.Controllers.SysUserController.TestAutofac">
+            <summary>
+            测试Autofac
+            </summary>
+            <returns></returns>
+        </member>
         <member name="M:OverallAuth_WebApi.Controllers.SysUserController.GetToken(System.String,System.String)">
             <summary>
             获取Token
@@ -163,6 +180,12 @@
             swagger加入路由和管道
             </summary>
             <param name="app"></param>
+        </member>
+        <member name="M:OverallAuth_WebApi.PlugIn.AutofacPlugIn.Load(Autofac.ContainerBuilder)">
+            <summary>
+            重写Autofac的Load方法
+            </summary>
+            <param name="containerBuilder"></param>
         </member>
     </members>
 </doc>

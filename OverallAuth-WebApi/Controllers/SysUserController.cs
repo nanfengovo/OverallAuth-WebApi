@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Authorization;
+﻿using DomainService.IService;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Model.BusinessModel.InPut;
@@ -15,6 +16,34 @@ namespace OverallAuth_WebApi.Controllers
     [ApiExplorerSettings(GroupName = nameof(ModeuleGroupEnum.SysUser))]
     public class SysUserController : BaseController
     {
+
+        #region 构造实例化
+        /// <summary>
+        /// 用户服务
+        /// </summary>
+        public readonly ISysUserService _sysUserService;
+
+        /// <summary>
+        /// 构造函数
+        /// </summary>
+        /// <param name="sysUserService">用户服务</param>
+        public SysUserController(ISysUserService sysUserService)
+        {
+            _sysUserService = sysUserService;
+        }
+        #endregion
+
+        /// <summary>
+        /// 测试Autofac
+        /// </summary>
+        /// <returns></returns>
+        [HttpGet]
+        [AllowAnonymous]
+        public String TestAutofac()
+        {
+            return _sysUserService.TestAutofac();
+        }
+
         /// <summary>
         /// 获取Token
         /// </summary>
