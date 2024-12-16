@@ -9,6 +9,7 @@
       "OverallAuth-WebApi/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.11",
+          "Model": "1.0.0",
           "Swashbuckle.AspNetCore": "6.4.0",
           "Utility": "1.0.0"
         },
@@ -151,6 +152,14 @@
           }
         }
       },
+      "Model/1.0.0": {
+        "runtime": {
+          "Model.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "Utility/1.0.0": {
         "runtime": {
           "Utility.dll": {
@@ -264,6 +273,11 @@
       "sha512": "sha512-Thhbe1peAmtSBFaV/ohtykXiZSOkx59Da44hvtWfIMFofDA3M3LaVyjstACf2rKGn4dEDR2cUpRAZ0Xs/zB+7Q==",
       "path": "system.identitymodel.tokens.jwt/7.1.2",
       "hashPath": "system.identitymodel.tokens.jwt.7.1.2.nupkg.sha512"
+    },
+    "Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "Utility/1.0.0": {
       "type": "project",

@@ -43,3 +43,5 @@ E:\Code\Study\Webapi\OverallAuth-WebApi\OverallAuth-WebApi\bin\Debug\net8.0\Micr
 E:\Code\Study\Webapi\OverallAuth-WebApi\OverallAuth-WebApi\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
 E:\Code\Study\Webapi\OverallAuth-WebApi\OverallAuth-WebApi\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
 E:\Code\Study\Webapi\OverallAuth-WebApi\OverallAuth-WebApi\obj\Debug\net8.0\OverallAuth-WebApi.sourcelink.json
+E:\Code\Study\Webapi\OverallAuth-WebApi\OverallAuth-WebApi\bin\Debug\net8.0\Model.dll
+E:\Code\Study\Webapi\OverallAuth-WebApi\OverallAuth-WebApi\bin\Debug\net8.0\Model.pdb

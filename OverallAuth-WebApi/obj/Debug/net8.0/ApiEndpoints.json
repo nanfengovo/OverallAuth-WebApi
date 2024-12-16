@@ -1,5 +1,25 @@
 [
   {
+    "ContainingType": "OverallAuth_WebApi.Controllers.BaseController",
+    "Method": "GetLoginUserMsg",
+    "RelativePath": "api/Base/GetLoginUserMsg",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Model.BusinessModel.OutPut.LoginOutPut",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "OverallAuth_WebApi.Controllers.SysMenuController",
     "Method": "CheckJwt",
     "RelativePath": "api/SysMenu/CheckJwt",
@@ -78,16 +98,16 @@
     ]
   },
   {
-    "ContainingType": "OverallAuth_WebApi.Controllers.WeatherForecastController",
-    "Method": "Get",
-    "RelativePath": "WeatherForecast",
+    "ContainingType": "OverallAuth_WebApi.Controllers.BaseController",
+    "Method": "GetLoginUserMsg",
+    "RelativePath": "api/SysUser/GetLoginUserMsg",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[OverallAuth_WebApi.WeatherForecast, OverallAuth-WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Model.BusinessModel.OutPut.LoginOutPut",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -95,7 +115,37 @@
         ],
         "StatusCode": 200
       }
+    ]
+  },
+  {
+    "ContainingType": "OverallAuth_WebApi.Controllers.SysUserController",
+    "Method": "GetToken",
+    "RelativePath": "api/SysUser/GetToken",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "password",
+        "Type": "System.String",
+        "IsRequired": false
+      }
     ],
-    "EndpointName": "GetWeatherForecast"
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   }
 ]

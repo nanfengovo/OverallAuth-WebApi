@@ -1,4 +1,4 @@
-﻿namespace Utility
+﻿namespace Model
 {
     public class Class1
     {

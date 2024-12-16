@@ -220,6 +220,16 @@
           }
         }
       },
+      "Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Model.dll": {}
+        }
+      },
       "Utility/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -738,6 +748,11 @@
         "system.identitymodel.tokens.jwt.nuspec"
       ]
     },
+    "Model/1.0.0": {
+      "type": "project",
+      "path": "../Model/Model.csproj",
+      "msbuildProject": "../Model/Model.csproj"
+    },
     "Utility/1.0.0": {
       "type": "project",
       "path": "../Utility/Utility.csproj",
@@ -747,6 +762,7 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 8.0.11",
+      "Model >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.4.0",
       "Utility >= 1.0.0"
     ]
@@ -783,6 +799,9 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
+            "E:\\Code\\Study\\Webapi\\OverallAuth-WebApi\\Model\\Model.csproj": {
+              "projectPath": "E:\\Code\\Study\\Webapi\\OverallAuth-WebApi\\Model\\Model.csproj"
+            },
             "E:\\Code\\Study\\Webapi\\OverallAuth-WebApi\\Utility\\Utility.csproj": {
               "projectPath": "E:\\Code\\Study\\Webapi\\OverallAuth-WebApi\\Utility\\Utility.csproj"
             }

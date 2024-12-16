@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35222.181
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OverallAuth-WebApi", "OverallAuth-WebApi\OverallAuth-WebApi.csproj", "{BB1F9C6D-71EA-441F-A688-2D7EEC233217}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OverallAuth-WebApi", "OverallAuth-WebApi\OverallAuth-WebApi.csproj", "{BB1F9C6D-71EA-441F-A688-2D7EEC233217}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utility", "Utility\Utility.csproj", "{3390BD6B-DE9D-49FE-9B34-8211D63EE63F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Utility", "Utility\Utility.csproj", "{3390BD6B-DE9D-49FE-9B34-8211D63EE63F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj", "{11297516-21D9-4E15-A049-5612AF375C82}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{3390BD6B-DE9D-49FE-9B34-8211D63EE63F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3390BD6B-DE9D-49FE-9B34-8211D63EE63F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3390BD6B-DE9D-49FE-9B34-8211D63EE63F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11297516-21D9-4E15-A049-5612AF375C82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11297516-21D9-4E15-A049-5612AF375C82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11297516-21D9-4E15-A049-5612AF375C82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11297516-21D9-4E15-A049-5612AF375C82}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

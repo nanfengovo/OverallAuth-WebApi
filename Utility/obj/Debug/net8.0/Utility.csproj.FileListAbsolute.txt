@@ -9,3 +9,4 @@ E:\Code\Study\Webapi\OverallAuth-WebApi\Utility\obj\Debug\net8.0\Utility.dll
 E:\Code\Study\Webapi\OverallAuth-WebApi\Utility\obj\Debug\net8.0\refint\Utility.dll
 E:\Code\Study\Webapi\OverallAuth-WebApi\Utility\obj\Debug\net8.0\Utility.pdb
 E:\Code\Study\Webapi\OverallAuth-WebApi\Utility\obj\Debug\net8.0\ref\Utility.dll
+E:\Code\Study\Webapi\OverallAuth-WebApi\Utility\obj\Debug\net8.0\Utility.sourcelink.json

@@ -4,6 +4,17 @@
         <name>OverallAuth-WebApi</name>
     </assembly>
     <members>
+        <member name="T:OverallAuth_WebApi.Controllers.BaseController">
+            <summary>
+            系统基础模块
+            </summary>
+        </member>
+        <member name="M:OverallAuth_WebApi.Controllers.BaseController.GetLoginUserMsg">
+            <summary>
+            获取登陆人员信息
+            </summary>
+            <returns></returns>
+        </member>
         <member name="T:OverallAuth_WebApi.Controllers.SysMenuController">
             <summary>
             系统模块
@@ -31,6 +42,18 @@
             不检查jwt
             </summary>
             <returns></returns>
+        </member>
+        <member name="T:OverallAuth_WebApi.Controllers.SysUserController">
+            <summary>
+            用户模块
+            </summary>
+        </member>
+        <member name="M:OverallAuth_WebApi.Controllers.SysUserController.GetToken(System.String,System.String)">
+            <summary>
+            获取Token
+            </summary>
+            <param name="userName">用户名</param>
+            <param name="password">密码</param>
         </member>
         <member name="T:OverallAuth_WebApi.Model.JwtSettingModel">
             <summary>
@@ -109,6 +132,20 @@
             初始化JWT
             </summary>
             <param name="services"></param>
+        </member>
+        <member name="M:OverallAuth_WebApi.PlugInUnit.JwtPlugInUnit.PropValuesType(System.Object)">
+            <summary>
+            反射获取字段
+            </summary>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OverallAuth_WebApi.PlugInUnit.JwtPlugInUnit.BuildToken(Model.BusinessModel.InPut.LoginInput)">
+            <summary>
+            生成Token
+            </summary>
+            <param name="loginResult">登陆返回信息</param>
+            <returns></returns>
         </member>
         <member name="T:OverallAuth_WebApi.PlugInUnit.SwaggerPlugInUnit">
             <summary>
