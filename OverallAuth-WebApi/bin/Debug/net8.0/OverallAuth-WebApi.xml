@@ -115,6 +115,40 @@
             过期时间    单位：秒
             </summary>
         </member>
+        <member name="T:OverallAuth_WebApi.PlugIn.AopPlugIn">
+            <summary>
+            aop插件
+            </summary>
+        </member>
+        <member name="M:OverallAuth_WebApi.PlugIn.AopPlugIn.Intercept(Castle.DynamicProxy.IInvocation)">
+            <summary>
+            拦截
+            </summary>
+            <param name="invocation"></param>
+        </member>
+        <member name="T:OverallAuth_WebApi.PlugIn.AutofacPlugIn">
+            <summary>
+            Autofac插件
+            </summary>
+        </member>
+        <member name="M:OverallAuth_WebApi.PlugIn.AutofacPlugIn.Load(Autofac.ContainerBuilder)">
+            <summary>
+            重写Autofac的Load方法
+            </summary>
+            <param name="containerBuilder"></param>
+        </member>
+        <member name="T:OverallAuth_WebApi.PlugIn.ExceptionPlugIn">
+            <summary>
+            全局异常捕获中间件
+            </summary>
+        </member>
+        <member name="M:OverallAuth_WebApi.PlugIn.ExceptionPlugIn.OnExceptionAsync(Microsoft.AspNetCore.Mvc.Filters.ExceptionContext)">
+            <summary>
+            全局异常捕获接口
+            </summary>
+            <param name="context"></param>
+            <returns></returns>
+        </member>
         <member name="T:OverallAuth_WebApi.PlugInUnit.AppSettingsPlugInUnit">
             <summary>
             AppSettings配置文件插件
@@ -193,24 +227,6 @@
             swagger加入路由和管道
             </summary>
             <param name="app"></param>
-        </member>
-        <member name="M:OverallAuth_WebApi.PlugIn.AutofacPlugIn.Load(Autofac.ContainerBuilder)">
-            <summary>
-            重写Autofac的Load方法
-            </summary>
-            <param name="containerBuilder"></param>
-        </member>
-        <member name="T:OverallAuth_WebApi.PlugIn.ExceptionPlugIn">
-            <summary>
-            全局异常捕获中间件
-            </summary>
-        </member>
-        <member name="M:OverallAuth_WebApi.PlugIn.ExceptionPlugIn.OnExceptionAsync(Microsoft.AspNetCore.Mvc.Filters.ExceptionContext)">
-            <summary>
-            全局异常捕获接口
-            </summary>
-            <param name="context"></param>
-            <returns></returns>
         </member>
     </members>
 </doc>
