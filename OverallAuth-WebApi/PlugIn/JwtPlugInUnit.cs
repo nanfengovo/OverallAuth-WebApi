@@ -20,7 +20,7 @@ namespace OverallAuth_WebApi.PlugInUnit
         /// <param name="services"></param>
         public static void InitJWT(this IServiceCollection services)
         {
-            var jwtsetting = AppSettingsPlugInUnit.GetNode<JwtSettingModel>("JwtSetting");
+            var jwtsetting = AppSettingsPlugIn.GetNode<JwtSettingModel>("JwtSetting");
             services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
                 .AddJwtBearer(o =>
                 {
@@ -67,7 +67,7 @@ namespace OverallAuth_WebApi.PlugInUnit
         {
             LoginOutPut result = new LoginOutPut();
             //获取配置
-            var jwtsetting = AppSettingsPlugInUnit.GetNode<JwtSettingModel>("JwtSetting");
+            var jwtsetting = AppSettingsPlugIn.GetNode<JwtSettingModel>("JwtSetting");
 
             //准备calims，记录登录信息
             var calims = loginResult.PropValuesType().Select(x => new Claim(x.Name, x.Value.ToString(), x.Type)).ToList();

@@ -38,6 +38,9 @@ namespace OverallAuth_WebApi
                 a.Filters.Add(typeof(ExceptionPlugIn));
             });
 
+            //øÁ”Ú≈‰÷√
+            builder.Services.InitCors();
+
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -53,6 +56,7 @@ namespace OverallAuth_WebApi
 
             app.UseAuthorization();
 
+            app.UseCors("Access-Control-Allow-Origin");
 
             app.MapControllers();
 

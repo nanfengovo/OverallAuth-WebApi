@@ -5,7 +5,7 @@ namespace OverallAuth_WebApi.PlugInUnit
     /// <summary>
     /// AppSettings配置文件插件
     /// </summary>
-    public class AppSettingsPlugInUnit
+    public class AppSettingsPlugIn
     {
         /// <summary>
         /// 声明配置属性
@@ -15,7 +15,7 @@ namespace OverallAuth_WebApi.PlugInUnit
         /// <summary>
         /// 构造函数
         /// </summary>
-        static AppSettingsPlugInUnit()
+        static AppSettingsPlugIn()
         {
             Configuration = new ConfigurationBuilder()
                  .Add(new JsonConfigurationSource { Path = "appsettings.json", ReloadOnChange = true })
@@ -53,6 +53,18 @@ namespace OverallAuth_WebApi.PlugInUnit
         public static T GetNode<T>(string Node) where T : new()
         {
             T model = Configuration.GetSection(Node).Get<T>();
+            return model;
+
+        }
+
+        /// <summary>
+        /// 根据节点名称获取配置模型
+        /// </summary>
+        /// <param name="Node"></param>
+        /// <returns></returns>
+        public static string GetNode(string Node)
+        {
+            string model = Configuration.GetSection(Node).Get<string>();
             return model;
 
         }

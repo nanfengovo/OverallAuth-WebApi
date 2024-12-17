@@ -137,6 +137,17 @@
             </summary>
             <param name="containerBuilder"></param>
         </member>
+        <member name="T:OverallAuth_WebApi.PlugIn.CrossDomainPlugIn">
+            <summary>
+            跨域配置插件
+            </summary>
+        </member>
+        <member name="M:OverallAuth_WebApi.PlugIn.CrossDomainPlugIn.InitCors(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            跨域
+            </summary>
+            <param name="services"></param>
+        </member>
         <member name="T:OverallAuth_WebApi.PlugIn.ExceptionPlugIn">
             <summary>
             全局异常捕获中间件
@@ -149,22 +160,22 @@
             <param name="context"></param>
             <returns></returns>
         </member>
-        <member name="T:OverallAuth_WebApi.PlugInUnit.AppSettingsPlugInUnit">
+        <member name="T:OverallAuth_WebApi.PlugInUnit.AppSettingsPlugIn">
             <summary>
             AppSettings配置文件插件
             </summary>
         </member>
-        <member name="P:OverallAuth_WebApi.PlugInUnit.AppSettingsPlugInUnit.Configuration">
+        <member name="P:OverallAuth_WebApi.PlugInUnit.AppSettingsPlugIn.Configuration">
             <summary>
             声明配置属性
             </summary>
         </member>
-        <member name="M:OverallAuth_WebApi.PlugInUnit.AppSettingsPlugInUnit.#cctor">
+        <member name="M:OverallAuth_WebApi.PlugInUnit.AppSettingsPlugIn.#cctor">
             <summary>
             构造函数
             </summary>
         </member>
-        <member name="M:OverallAuth_WebApi.PlugInUnit.AppSettingsPlugInUnit.GetJson(System.String,System.String)">
+        <member name="M:OverallAuth_WebApi.PlugInUnit.AppSettingsPlugIn.GetJson(System.String,System.String)">
             <summary>
             获得配置文件的对象值
             </summary>
@@ -172,17 +183,24 @@
             <param name="key"></param>
             <returns></returns>
         </member>
-        <member name="M:OverallAuth_WebApi.PlugInUnit.AppSettingsPlugInUnit.GetMysqlConnection">
+        <member name="M:OverallAuth_WebApi.PlugInUnit.AppSettingsPlugIn.GetMysqlConnection">
             <summary>
             获取数据库连接字符串
             </summary>
             <returns></returns>
         </member>
-        <member name="M:OverallAuth_WebApi.PlugInUnit.AppSettingsPlugInUnit.GetNode``1(System.String)">
+        <member name="M:OverallAuth_WebApi.PlugInUnit.AppSettingsPlugIn.GetNode``1(System.String)">
             <summary>
             根据节点名称获取配置模型
             </summary>
             <typeparam name="T"></typeparam>
+            <param name="Node"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OverallAuth_WebApi.PlugInUnit.AppSettingsPlugIn.GetNode(System.String)">
+            <summary>
+            根据节点名称获取配置模型
+            </summary>
             <param name="Node"></param>
             <returns></returns>
         </member>
