@@ -1,14 +1,11 @@
-    import router from '@/router'
-import { defineStore } from 'pinia'
-import {routes} from '../router/module/base-routes'
+    import { defineStore } from 'pinia'
     export const useUserStore = defineStore(
     'user', {
     state: () => ({
         token: '',
         expiresDate: '',
         userInfo: {},
-        // menus:[] as any,
-        menus:routes
+        menus:[] as any,
     }),
 
     actions: {},

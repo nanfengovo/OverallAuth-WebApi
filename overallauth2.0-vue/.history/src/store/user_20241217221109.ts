@@ -1,14 +1,11 @@
-    import router from '@/router'
-import { defineStore } from 'pinia'
-import {routes} from '../router/module/base-routes'
+    import { defineStore } from 'pinia'
     export const useUserStore = defineStore(
     'user', {
     state: () => ({
         token: '',
         expiresDate: '',
         userInfo: {},
-        // menus:[] as any,
-        menus:routes
+        menus:[] as any,
     }),
 
     actions: {},
@@ -20,7 +17,7 @@ import {routes} from '../router/module/base-routes'
             // 可以是localStorage或sessionStorage
             storage: localStorage,
             // 指定需要持久化的属性
-            paths: ['token','expiresDate','userInfo','menus']
+            paths: ['token','expiresDate','userInfo']
         }
         ]
     },

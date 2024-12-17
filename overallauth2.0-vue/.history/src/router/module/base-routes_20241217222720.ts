@@ -60,6 +60,17 @@
             meta: { title: '用户' },
         }]
     },
-    
+    {
+        path: '/test',
+        meta: { title: '测试' },
+        name: "测试",
+        children: [
+        {
+            path: '/user',
+            name: '用户',
+            component: () => import('../../views/user/index.vue'),
+            meta: { title: '用户' },
+        }]
+    },
     )
 

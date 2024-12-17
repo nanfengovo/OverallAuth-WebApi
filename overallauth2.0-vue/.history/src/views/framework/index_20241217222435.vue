@@ -132,14 +132,13 @@
     export default defineComponent({
         components: {},
         setup() {
-          
         const userStore = useUserStore();
         const defaultActive = ref("/panel");
-        console.log(userStore.menus);  // 打印查看 menus 是否包含数据
-        console.log("Menus from Pinia:", userStore.menus);
-        const menu = userStore.menus.filter(
-      (f: { path: string; }) => f.path != "/framework" && f.path != "/login"
-    );
+        const excludePaths = ["/framework", "/login"];
+
+const menu = userStore.menus.filter(
+  (f: { path: string }) => !excludePaths.includes(f.path)
+);
 
         const tabsList = ref<RouteRecordRaw[]>([]);
         
