@@ -10,7 +10,7 @@
           style="width: 50%; margin-left: 5px;"
           class="boxStyle"
         >
-        <div id="echarts-tow" style="width: 100%; height: 100%"></div>
+        <div id="echarts-two" style="width: 100%; height: 100%"></div>
         </div>
       </div>
       <div style="height: 45% ;margin-bottom: 5px"  class="boxStyle">
@@ -50,6 +50,8 @@ export default defineComponent({
   },
 
   setup() {  
+    console.log(document.getElementById("echarts-one")?.clientHeight);
+console.log(document.getElementById("echarts-one")?.clientWidth);
     onMounted(() => {
       GetEchartsOneData();
       GetEchartsTwoData();
@@ -65,7 +67,7 @@ export default defineComponent({
 
     //南丁格尔玫瑰图
     function GetEchartsTwoData() {
-      var myChart = echarts.init(document.getElementById("echarts-tow"));
+      var myChart = echarts.init(document.getElementById("echarts-two"));
       myChart.setOption(echartsTWO);
     }
 

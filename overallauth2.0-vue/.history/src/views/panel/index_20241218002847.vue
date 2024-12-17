@@ -1,33 +1,21 @@
 <template>
-  <div style="display: flex; height: 1080px">
-    <div style="width: 80%">
-      <div
-        style="height: 25%; display: flex; margin-bottom: 5px"
-        class="boxStyle"
-      >
-      <div id="echarts-one" style="width: 60%; height: 100%"></div>
-        <div
-          style="width: 50%; margin-left: 5px;"
-          class="boxStyle"
-        >
-        <div id="echarts-tow" style="width: 100%; height: 100%"></div>
+  <div style="display: flex; height: 100vh;">
+    <div style="width: 80%; height: 100%;">
+      <div style="height: 25%; display: flex; margin-bottom: 5px;" class="boxStyle">
+        <div id="echarts-one" style="width: 60%; height: 100%;"></div>
+        <div style="width: 50%; margin-left: 5px;" class="boxStyle">
+          <div id="echarts-two" style="width: 100%; height: 100%;"></div>
         </div>
       </div>
-      <div style="height: 45% ;margin-bottom: 5px"  class="boxStyle">
-        <div id="echarts-three" style="width: 100%; height: 100%"></div>
+      <div style="height: 45%; margin-bottom: 5px" class="boxStyle">
+        <div id="echarts-three" style="width: 100%; height: 100%;"></div>
       </div>
       <div style="height: 28%" class="boxStyle">
-        <div id="echarts-four" style="width: 100%; height: 100%"></div>
+        <div id="echarts-four" style="width: 100%; height: 100%;"></div>
       </div>
     </div>
-    <div
-      style="width: 20%; margin-left: 5px; display: flow-root"
-      class="panelContent boxStyle"
-    >
-      <div
-        style="width: 100%; height: 50%; margin-bottom: 5px"
-        class="boxStyle"
-      >
+    <div style="width: 20%; margin-left: 5px; display: flow-root" class="panelContent boxStyle">
+      <div style="width: 100%; height: 50%; margin-bottom: 5px" class="boxStyle">
         特色功能
       </div>
       <div style="width: 100%; height: 50%" class="boxStyle">关于作者</div>
@@ -50,6 +38,8 @@ export default defineComponent({
   },
 
   setup() {  
+    console.log(document.getElementById("echarts-one")?.clientHeight);
+console.log(document.getElementById("echarts-one")?.clientWidth);
     onMounted(() => {
       GetEchartsOneData();
       GetEchartsTwoData();
@@ -65,7 +55,7 @@ export default defineComponent({
 
     //南丁格尔玫瑰图
     function GetEchartsTwoData() {
-      var myChart = echarts.init(document.getElementById("echarts-tow"));
+      var myChart = echarts.init(document.getElementById("echarts-two"));
       myChart.setOption(echartsTWO);
     }
 

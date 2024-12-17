@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OverallAuth-WebApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fb6a7b534b184e1b89e9353776624249760413eb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9817364c02cc997533e94a2ad39b0087b6a6780d")]
 [assembly: System.Reflection.AssemblyProductAttribute("OverallAuth-WebApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OverallAuth-WebApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

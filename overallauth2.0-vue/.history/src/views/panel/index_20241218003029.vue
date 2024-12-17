@@ -2,7 +2,7 @@
   <div style="display: flex; height: 1080px">
     <div style="width: 80%">
       <div
-        style="height: 25%; display: flex; margin-bottom: 5px"
+        style="height: 25%; display: flex; margin-bottom: 5px" height="100px" width="100px"
         class="boxStyle"
       >
       <div id="echarts-one" style="width: 60%; height: 100%"></div>
@@ -10,7 +10,7 @@
           style="width: 50%; margin-left: 5px;"
           class="boxStyle"
         >
-        <div id="echarts-tow" style="width: 100%; height: 100%"></div>
+        <div id="echarts-two" style="width: 100%; height: 100%"></div>
         </div>
       </div>
       <div style="height: 45% ;margin-bottom: 5px"  class="boxStyle">
@@ -50,6 +50,7 @@ export default defineComponent({
   },
 
   setup() {  
+    
     onMounted(() => {
       GetEchartsOneData();
       GetEchartsTwoData();
@@ -65,7 +66,7 @@ export default defineComponent({
 
     //南丁格尔玫瑰图
     function GetEchartsTwoData() {
-      var myChart = echarts.init(document.getElementById("echarts-tow"));
+      var myChart = echarts.init(document.getElementById("echarts-two"));
       myChart.setOption(echartsTWO);
     }
 

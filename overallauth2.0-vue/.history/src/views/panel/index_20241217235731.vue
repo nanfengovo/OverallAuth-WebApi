@@ -5,7 +5,7 @@
         style="height: 25%; display: flex; margin-bottom: 5px"
         class="boxStyle"
       >
-      <div id="echarts-one" style="width: 60%; height: 100%"></div>
+      　<div id="echarts-one" style="width: 100%; height: 100%"></div>
         <div
           style="width: 50%; margin-left: 5px;"
           class="boxStyle"
@@ -35,12 +35,10 @@
   </div>
 </template>
 <script  lang="ts" >
-import { echartsFour, echartsOne, echartsThree, echartsTWO } from "@/api/panel/echarts";
+/* eslint-disable no-unused-vars */
+import { echartsFour, echartsOne, echartsTWO } from "@/api/panel/echarts";
 import * as echarts from "echarts";
 import { defineComponent, onMounted } from "vue";
-import chinaJson from '@/api/panel/china.json'
-
-
 export default defineComponent({
   props: {
     // openPageData: {
@@ -49,11 +47,11 @@ export default defineComponent({
     // },
   },
 
-  setup() {  
+  setup(props, context) {  
     onMounted(() => {
       GetEchartsOneData();
       GetEchartsTwoData();
-      GetEchartsThreeData();
+      //GetEchartsThreeData();
       GetEchartsFourData();
     });
 
@@ -70,28 +68,22 @@ export default defineComponent({
     }
 
     //中国地图
-    function GetEchartsThreeData() {
-      var myChart = echarts.init(document.getElementById("echarts-three"));
-      echarts.registerMap("china", chinaJson as any); //注册可用的地图
-      myChart.setOption(echartsThree);
-    }
+    // function GetEchartsThreeData() {
+    //   var myChart = echarts.init(document.getElementById("echarts-three"));
+    //   echarts.registerMap("china", chinaJson as any); //注册可用的地图
+    //   myChart.setOption(echartsThree);
+    // }
 
     //堆叠图
     function GetEchartsFourData() {
       var myChart = echarts.init(document.getElementById("echarts-four"));
       myChart.setOption(echartsFour);
-      resizeEchart(myChart);
-    }
-    //图标兼容性调整
-    function resizeEchart(myChart:any)
-    {
-      //监听窗口大小变化(适用于一个页面多个图形)
-      window.addEventListener('resize',()=>{myChart.resize();})
     }
     return {};
   },
   components: {},
 });
+/* eslint-disable no-unused-vars */
 </script>
 <style scoped>
 .panelContent {

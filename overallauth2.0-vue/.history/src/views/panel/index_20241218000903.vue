@@ -49,7 +49,7 @@ export default defineComponent({
     // },
   },
 
-  setup() {  
+  setup(props, context) {  
     onMounted(() => {
       GetEchartsOneData();
       GetEchartsTwoData();

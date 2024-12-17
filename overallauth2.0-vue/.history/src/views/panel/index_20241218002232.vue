@@ -65,7 +65,7 @@ export default defineComponent({
 
     //南丁格尔玫瑰图
     function GetEchartsTwoData() {
-      var myChart = echarts.init(document.getElementById("echarts-tow"));
+      var myChart = echarts.init(document.getElementById("echarts-two"));
       myChart.setOption(echartsTWO);
     }
 

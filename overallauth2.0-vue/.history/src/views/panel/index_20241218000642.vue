@@ -35,10 +35,10 @@
   </div>
 </template>
 <script  lang="ts" >
-import { echartsFour, echartsOne, echartsThree, echartsTWO } from "@/api/panel/echarts";
+import { echartsFour, echartsOne, echartsThree, echartsTWO } from "@/api/Panel/echarts";
 import * as echarts from "echarts";
 import { defineComponent, onMounted } from "vue";
-import chinaJson from '@/api/panel/china.json'
+import chinaJson from '@/api/Panel/china.json'
 
 
 export default defineComponent({
@@ -49,7 +49,7 @@ export default defineComponent({
     // },
   },
 
-  setup() {  
+  setup(props, context) {  
     onMounted(() => {
       GetEchartsOneData();
       GetEchartsTwoData();

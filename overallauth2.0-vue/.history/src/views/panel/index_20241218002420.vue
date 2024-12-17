@@ -10,7 +10,7 @@
           style="width: 50%; margin-left: 5px;"
           class="boxStyle"
         >
-        <div id="echarts-tow" style="width: 100%; height: 100%"></div>
+        <div id="echarts-two" style="width: 100%; height: 100%"></div>
         </div>
       </div>
       <div style="height: 45% ;margin-bottom: 5px"  class="boxStyle">
@@ -51,6 +51,22 @@ export default defineComponent({
 
   setup() {  
     onMounted(() => {
+  var myChart = echarts.init(document.getElementById("echarts-one"));
+  myChart.setOption({
+    title: { text: "ECharts 示例" },
+    tooltip: {},
+    xAxis: { data: ["A", "B", "C", "D", "E"] },
+    yAxis: {},
+    series: [
+      {
+        name: "销量",
+        type: "bar",
+        data: [5, 20, 36, 10, 10]
+      }
+    ]
+  });
+});
+    onMounted(() => {
       GetEchartsOneData();
       GetEchartsTwoData();
       GetEchartsThreeData();
@@ -65,7 +81,7 @@ export default defineComponent({
 
     //南丁格尔玫瑰图
     function GetEchartsTwoData() {
-      var myChart = echarts.init(document.getElementById("echarts-tow"));
+      var myChart = echarts.init(document.getElementById("echarts-two"));
       myChart.setOption(echartsTWO);
     }
 

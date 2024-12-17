@@ -9,7 +9,7 @@
         <div
           style="width: 50%; margin-left: 5px;"
           class="boxStyle"
-        >
+        >11
         <div id="echarts-tow" style="width: 100%; height: 100%"></div>
         </div>
       </div>
