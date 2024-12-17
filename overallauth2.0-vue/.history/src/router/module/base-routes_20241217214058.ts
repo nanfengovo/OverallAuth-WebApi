@@ -41,7 +41,6 @@
         path: '/user',
         meta: { title: '用户管理' },
         name: "用户管理",
-        component:Framework,
         children: [
         {
             path: '/user',

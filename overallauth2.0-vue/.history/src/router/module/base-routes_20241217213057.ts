@@ -27,7 +27,6 @@
         redirect: '/menu/index',
         meta: { title: '菜单管理' },
         name: "菜单管理",
-        component:Framework,
         children: [
         {
             path: '/menu',
@@ -41,7 +40,6 @@
         path: '/user',
         meta: { title: '用户管理' },
         name: "用户管理",
-        component:Framework,
         children: [
         {
             path: '/user',

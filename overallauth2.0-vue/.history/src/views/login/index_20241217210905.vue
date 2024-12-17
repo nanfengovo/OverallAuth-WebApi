@@ -21,7 +21,7 @@
               placeholder="请输入密码"
               type="password"
               show-password
-              :prefix-icon="Lock"
+              :prefix-icon="Hide"
             />
       </div>
       <div class="Login-item">
@@ -36,25 +36,18 @@
   </div>
 </template>
 <script lang="ts" setup>
-import { login } from '@/api/user';
-import router from '@/router';
-import { User, Lock } from '@element-plus/icons-vue';
+import { User, Hide } from '@element-plus/icons-vue';
 import { reactive } from 'vue';
 
 
 const loginForm = reactive({
-  UserName: '张三',
-  Password: '1',
+  UserName: 'admin',
+  Password: '123456',
 })
 
 
 function loginClick() {
-  login(loginForm).then((res) => {
-    if(res.code === 200)
-  {
-    router.push("/framework");
-  }
-  })
+  
 }
 </script>
 <style >
@@ -64,7 +57,6 @@ function loginClick() {
   width: 100%;
   background-size: 100% 100%;
   display: flex;
-
 }
 .Login {
   width: 400px;
@@ -75,7 +67,6 @@ function loginClick() {
   border-radius: 10px;
   padding: 20px;
   box-shadow: 0 0 10px #ccc;
-  
 }
 .Login-item {
   margin-top: 20px;

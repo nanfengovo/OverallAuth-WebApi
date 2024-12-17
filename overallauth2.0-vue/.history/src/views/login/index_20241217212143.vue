@@ -43,8 +43,8 @@ import { reactive } from 'vue';
 
 
 const loginForm = reactive({
-  UserName: '张三',
-  Password: '1',
+  UserName: 'admin',
+  Password: '123456',
 })
 
 

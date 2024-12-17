@@ -36,25 +36,18 @@
   </div>
 </template>
 <script lang="ts" setup>
-import { login } from '@/api/user';
-import router from '@/router';
 import { User, Lock } from '@element-plus/icons-vue';
 import { reactive } from 'vue';
 
 
 const loginForm = reactive({
-  UserName: '张三',
-  Password: '1',
+  UserName: 'admin',
+  Password: '123456',
 })
 
 
 function loginClick() {
-  login(loginForm).then((res) => {
-    if(res.code === 200)
-  {
-    router.push("/framework");
-  }
-  })
+  
 }
 </script>
 <style >

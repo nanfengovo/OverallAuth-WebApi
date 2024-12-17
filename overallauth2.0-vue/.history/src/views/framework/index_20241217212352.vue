@@ -113,7 +113,7 @@
               :closable="item.path == '/panel' ? false : true"
               style="font-size: 16px"
             >
-              <router-view />
+              <!-- <router-view /> -->
             </el-tab-pane>
           </el-tabs>
         </el-main>
