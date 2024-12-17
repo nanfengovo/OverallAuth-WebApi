@@ -3,7 +3,6 @@
     <el-container style="height: 100%; overflow: hidden">
       <el-aside width="auto">
         <el-menu
-          :default-active="defaultActive"
           class="el-menu-vertical-demo"
           background-color="#545c64"
           text-color="#fff"
@@ -34,7 +33,6 @@
                 :index="subMenuItem.path"
                 :route="{ name: subMenuItem.name }"
                 :key="subMenuItem.name"
-                @click="menuItemClick(subMenuItem)"
                 style="cursor: pointer"
               >
                 {{ subMenuItem.name }}
@@ -46,7 +44,6 @@
               :index="menuItem.path"
               :key="menuItem.path"
               :route="{ name: menuItem.name }"
-              @click="menuItemClick(menuItem)"
               style="cursor: pointer"
             >
               {{ menuItem.name }}
@@ -92,24 +89,7 @@
         </el-header>
 
         <el-main>
-          <el-tabs
-            v-if="tabsList.length > 0"
-            v-model="defaultActive"
-            class="demo-tabs"
-            @click="tabsClick(defaultActive)"
-            @tab-remove="tabRemoveClick"
-          >
-            <el-tab-pane
-              v-for="item in tabsList"
-              :label="item.name"
-              :name="item.path"
-              :key="item.path"
-              :closable="item.path == '/panel' ? false : true"
-              style="font-size: 16px"
-            >
-              <router-view></router-view>
-            </el-tab-pane>
-          </el-tabs>
+          <router-view></router-view>
         </el-main>
       </el-container>
     </el-container>
@@ -117,51 +97,14 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, onMounted, ref } from "vue";
-import router, { routes } from "../router/module/base-routes";
-import { RouteRecordRaw } from "vue-router";
+import { defineComponent, ref } from "vue";
+import { routes } from "../router/module/base-routes";
 
 export default defineComponent({
   setup() {
-    const defaultActive = ref("/panel");
     const menu = routes;
-    const tabsList = ref<RouteRecordRaw[]>([]);
-    
-    //初始加载dom
-    onMounted(() => {
-      tabsList.value.push(routes[0]); //默认打开第一个标签
-      router.push(routes[0]); 
-    });
-    //菜单项点击事件
-    function menuItemClick(subMenuItem: RouteRecordRaw) {
-      // tabList中不存在则追加
-      if (!tabsList.value.some((sub) => sub.path == subMenuItem.path)) {
-        tabsList.value.push(subMenuItem);
-      }
-      defaultActive.value = subMenuItem.path;
-    }
-
-    //菜单标签点击事件
-    const tabsClick = (item: string) => {
-      defaultActive.value = item;
-      router.push({ path: item });
-    };
-
-    //菜单标签移除事件
-    const tabRemoveClick = (path: any) => {
-      tabsList.value.map((item: { path: string }, index: any) => {
-        if (item.path == path) tabsList.value.splice(index, 1); //index 当前元素索引；1：需要删除的元素个数
-      });
-      defaultActive.value = "/panel";
-      router.push({ path: "/panel" });
-    };
     return {
       menu,
-      tabsList,
-      defaultActive,
-      tabsClick,
-      tabRemoveClick,
-      menuItemClick,
     };
   },
   components: {},

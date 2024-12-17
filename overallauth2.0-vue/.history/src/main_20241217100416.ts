@@ -3,7 +3,7 @@ import App from './App.vue'
 import ElementPlus from 'element-plus'
 import 'element-plus/dist/index.css'
 import * as Icons from '@element-plus/icons-vue'
-import router from '../src/router/module/base-routes'
+import router from 'src/router/module/base-routes.ts'
 
 const app = createApp(App)
 app.use(ElementPlus)
