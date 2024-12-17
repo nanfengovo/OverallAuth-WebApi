@@ -34,6 +34,9 @@
             "projectReferences": {
               "E:\\Code\\Study\\Webapi\\OverallAuth-WebApi\\Infrastructure\\Infrastructure.csproj": {
                 "projectPath": "E:\\Code\\Study\\Webapi\\OverallAuth-WebApi\\Infrastructure\\Infrastructure.csproj"
+              },
+              "E:\\Code\\Study\\Webapi\\OverallAuth-WebApi\\Utility\\Utility.csproj": {
+                "projectPath": "E:\\Code\\Study\\Webapi\\OverallAuth-WebApi\\Utility\\Utility.csproj"
               }
             }
           }

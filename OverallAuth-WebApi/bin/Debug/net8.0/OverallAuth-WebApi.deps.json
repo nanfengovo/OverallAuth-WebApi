@@ -368,7 +368,8 @@
       },
       "DomainService/1.0.0": {
         "dependencies": {
-          "Infrastructure": "1.0.0"
+          "Infrastructure": "1.0.0",
+          "Utility": "1.0.0"
         },
         "runtime": {
           "DomainService.dll": {

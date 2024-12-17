@@ -11,6 +11,12 @@ namespace Model.BusinessModel.OutPut
     /// </summary>
     public class LoginOutPut
     {
+
+        /// <summary>
+        /// 用户id
+        /// </summary>
+        public int UserId { get; set; }
+
         /// <summary>
         /// 用户名
         /// </summary>

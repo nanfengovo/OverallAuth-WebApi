@@ -198,10 +198,10 @@ export default defineComponent({
   /* display: flex; */
 }
 .logo-image {
-  background-image: url("../components/权限分配.png");
+  background-image: url("../../resources/picture/权限分配.png");
 }
 .user-image {
-  background-image: url("../components/用户.png");
+  background-image: url("../../resources/picture/用户.png");
 }
 .demo-tabs /deep/ .el-tabs__header {
   color: #333; /* 标签页头部字体颜色 */

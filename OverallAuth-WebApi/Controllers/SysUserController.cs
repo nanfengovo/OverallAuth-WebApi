@@ -2,7 +2,9 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Model;
 using Model.BusinessModel.InPut;
+using Model.BusinessModel.OutPut;
 using Model.DomainModel;
 using OverallAuth_WebApi.PlugInUnit;
 using Utility.Enum;
@@ -81,5 +83,28 @@ namespace OverallAuth_WebApi.Controllers
         {
             throw new Exception("系统发生异常");
         }
+
+
+        /// <summary>
+        /// 登录
+        /// </summary>
+        /// <param name="loginModel"></param>
+        /// <returns></returns>
+        [HttpPost]
+        [AllowAnonymous]
+        public ReceiveStatus<LoginOutPut> Login (LoginInput loginModel)
+        {
+            var result = _sysUserService.GetUserMsg(loginModel.UserName??string.Empty,loginModel.Password??string.Empty);
+            if(result.success)
+            {
+                var loginResult = result.data.First();
+                var tokenResult = JwtPlugInUnit.BuildToken(loginModel);
+                loginResult.Token = tokenResult.Token;
+                loginResult.ExpiresDate = tokenResult.ExpiresDate;
+                result.data = new List<LoginOutPut>() { loginResult };
+            }
+            return result;
+        }
+
     }
 }

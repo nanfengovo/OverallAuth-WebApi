@@ -1,11 +1,12 @@
-    <template>
-        <div>用户</div>
-    </template>
+<template>
+  <div>用户</div>
+</template>
     
     <script lang="ts">
     import { defineComponent, onMounted } from "vue";
     import { TestAutofac } from "../../api/module/user";
     export default defineComponent({
+        components: {},
         setup() {
     
         //初始加载
@@ -20,6 +21,5 @@
         };
         return {};
         },
-        components: {},
     });
     </script>

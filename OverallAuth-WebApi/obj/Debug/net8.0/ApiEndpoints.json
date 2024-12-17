@@ -170,6 +170,32 @@
   },
   {
     "ContainingType": "OverallAuth_WebApi.Controllers.SysUserController",
+    "Method": "Login",
+    "RelativePath": "api/SysUser/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginModel",
+        "Type": "Model.BusinessModel.InPut.LoginInput",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Model.ReceiveStatus\u00601[[Model.BusinessModel.OutPut.LoginOutPut, Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OverallAuth_WebApi.Controllers.SysUserController",
     "Method": "TestAutofac",
     "RelativePath": "api/SysUser/TestAutofac",
     "HttpMethod": "GET",

@@ -85,6 +85,13 @@
             <returns></returns>
             <exception cref="T:System.Exception"></exception>
         </member>
+        <member name="M:OverallAuth_WebApi.Controllers.SysUserController.Login(Model.BusinessModel.InPut.LoginInput)">
+            <summary>
+            登录
+            </summary>
+            <param name="loginModel"></param>
+            <returns></returns>
+        </member>
         <member name="T:OverallAuth_WebApi.Model.JwtSettingModel">
             <summary>
             jwt配置模型
