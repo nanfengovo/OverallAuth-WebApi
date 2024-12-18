@@ -20,16 +20,16 @@
     ]
   },
   {
-    "ContainingType": "OverallAuth_WebApi.Controllers.SysMenuController",
-    "Method": "CheckJwt",
-    "RelativePath": "api/SysMenu/CheckJwt",
+    "ContainingType": "OverallAuth_WebApi.Controllers.BaseController",
+    "Method": "GetLoginUserMsg",
+    "RelativePath": "api/SysMenu/GetLoginUserMsg",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.String",
+        "Type": "Model.BusinessModel.OutPut.LoginOutPut",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -40,54 +40,16 @@
     ]
   },
   {
-    "ContainingType": "OverallAuth_WebApi.Controllers.SysMenuController",
-    "Method": "GetAllMenu",
-    "RelativePath": "api/SysMenu/GetAllMenu",
+    "ContainingType": "OverallAuth_WebApi.Controllers.Sys.SysMenuController",
+    "Method": "GetMenuTreeList",
+    "RelativePath": "api/SysMenu/GetMenuTreeList",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "OverallAuth_WebApi.Controllers.SysMenuController",
-    "Method": "GetMenuById",
-    "RelativePath": "api/SysMenu/GetMenuById",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "Id",
-        "Type": "System.String",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "OverallAuth_WebApi.Controllers.SysMenuController",
-    "Method": "UnCheckJwt",
-    "RelativePath": "api/SysMenu/UnCheckJwt",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.String",
+        "Type": "Model.ReceiveStatus\u00601[[Model.BusinessModel.OutPut.SysMenuOutPut, Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -98,7 +60,7 @@
     ]
   },
   {
-    "ContainingType": "OverallAuth_WebApi.Controllers.SysUserController",
+    "ContainingType": "OverallAuth_WebApi.Controllers.Sys.SysUserController",
     "Method": "GetAllUsers",
     "RelativePath": "api/SysUser/GetAllUsers",
     "HttpMethod": "GET",
@@ -138,7 +100,7 @@
     ]
   },
   {
-    "ContainingType": "OverallAuth_WebApi.Controllers.SysUserController",
+    "ContainingType": "OverallAuth_WebApi.Controllers.Sys.SysUserController",
     "Method": "GetToken",
     "RelativePath": "api/SysUser/GetToken",
     "HttpMethod": "GET",
@@ -169,7 +131,7 @@
     ]
   },
   {
-    "ContainingType": "OverallAuth_WebApi.Controllers.SysUserController",
+    "ContainingType": "OverallAuth_WebApi.Controllers.Sys.SysUserController",
     "Method": "Login",
     "RelativePath": "api/SysUser/Login",
     "HttpMethod": "POST",
@@ -195,7 +157,7 @@
     ]
   },
   {
-    "ContainingType": "OverallAuth_WebApi.Controllers.SysUserController",
+    "ContainingType": "OverallAuth_WebApi.Controllers.Sys.SysUserController",
     "Method": "TestAutofac",
     "RelativePath": "api/SysUser/TestAutofac",
     "HttpMethod": "GET",
@@ -215,7 +177,7 @@
     ]
   },
   {
-    "ContainingType": "OverallAuth_WebApi.Controllers.SysUserController",
+    "ContainingType": "OverallAuth_WebApi.Controllers.Sys.SysUserController",
     "Method": "TestException",
     "RelativePath": "api/SysUser/TestException",
     "HttpMethod": "GET",

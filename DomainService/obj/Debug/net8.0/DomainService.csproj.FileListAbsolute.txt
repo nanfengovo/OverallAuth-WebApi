@@ -18,3 +18,5 @@ E:\Code\Study\Webapi\OverallAuth-WebApi\DomainService\obj\Debug\net8.0\DomainSer
 E:\Code\Study\Webapi\OverallAuth-WebApi\DomainService\obj\Debug\net8.0\ref\DomainService.dll
 E:\Code\Study\Webapi\OverallAuth-WebApi\DomainService\bin\Debug\net8.0\Utility.dll
 E:\Code\Study\Webapi\OverallAuth-WebApi\DomainService\bin\Debug\net8.0\Utility.pdb
+E:\Code\Study\Webapi\OverallAuth-WebApi\DomainService\bin\Debug\net8.0\CoreDomain.dll
+E:\Code\Study\Webapi\OverallAuth-WebApi\DomainService\bin\Debug\net8.0\CoreDomain.pdb

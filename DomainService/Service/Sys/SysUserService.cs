@@ -1,6 +1,6 @@
-﻿using DomainService.IService;
+﻿using DomainService.IService.Sys;
 using Infrastructure;
-using Infrastructure.IRepository;
+using Infrastructure.IRepository.Sys;
 using Model;
 using Model.BusinessModel.OutPut;
 using Model.DomainModel;
@@ -11,7 +11,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Utility;
 
-namespace DomainService.Service
+namespace DomainService.Service.Sys
 {
     internal class SysUserService : ISysUserService
     {
@@ -31,7 +31,7 @@ namespace DomainService.Service
             return _sysUserRepository.GetAll(BaseSqlRepository.sysUser_selectAllSql);
         }
 
- 
+
         #endregion
 
         /// <summary>
@@ -53,20 +53,20 @@ namespace DomainService.Service
         {
             ReceiveStatus<LoginOutPut> receiveStatus = new ReceiveStatus<LoginOutPut>();
             List<LoginOutPut> loginoutputlist = new List<LoginOutPut>();
-            if(string.IsNullOrEmpty(username))
+            if (string.IsNullOrEmpty(username))
             {
                 return ExceptionHelper<LoginOutPut>.CustomExceptionData("用户名不能为空！");
             }
-            if(string.IsNullOrEmpty(password))
+            if (string.IsNullOrEmpty(password))
             {
                 return ExceptionHelper<LoginOutPut>.CustomExceptionData("密码不能为空！");
             }
-            var result = _sysUserRepository.GetUserMsg(username,password);
-            if(result ==null)
+            var result = _sysUserRepository.GetUserMsg(username, password);
+            if (result == null)
             {
                 return ExceptionHelper<LoginOutPut>.CustomExceptionData($"用户{username}不存在或用户名密码错误！");
             }
-            if(result.IsOpen==false)
+            if (result.IsOpen == false)
             {
                 return ExceptionHelper<LoginOutPut>.CustomExceptionData($"用户{username}已停用！");
             }

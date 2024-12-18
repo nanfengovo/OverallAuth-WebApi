@@ -15,77 +15,71 @@
             </summary>
             <returns></returns>
         </member>
-        <member name="T:OverallAuth_WebApi.Controllers.SysMenuController">
+        <member name="T:OverallAuth_WebApi.Controllers.Sys.SysMenuController">
             <summary>
             系统模块
             </summary>
         </member>
-        <member name="M:OverallAuth_WebApi.Controllers.SysMenuController.GetAllMenu">
+        <member name="F:OverallAuth_WebApi.Controllers.Sys.SysMenuController._sysMenuService">
             <summary>
-            获取所有模块
+            菜单服务服务
             </summary>
         </member>
-        <member name="M:OverallAuth_WebApi.Controllers.SysMenuController.GetMenuById(System.String)">
+        <member name="M:OverallAuth_WebApi.Controllers.Sys.SysMenuController.#ctor(DomainService.IService.Sys.ISysMenuService)">
             <summary>
-            获取指定模块
+            构造函数
             </summary>
-            <param name="Id">模块Id</param>
+            <param name="sysMenuService"></param>
         </member>
-        <member name="M:OverallAuth_WebApi.Controllers.SysMenuController.CheckJwt">
+        <member name="M:OverallAuth_WebApi.Controllers.Sys.SysMenuController.GetMenuTreeList">
             <summary>
-            检查jwt
-            </summary>
-            <returns></returns>
-        </member>
-        <member name="M:OverallAuth_WebApi.Controllers.SysMenuController.UnCheckJwt">
-            <summary>
-            不检查jwt
+            获取树形菜单
             </summary>
             <returns></returns>
         </member>
-        <member name="T:OverallAuth_WebApi.Controllers.SysUserController">
+        <member name="T:OverallAuth_WebApi.Controllers.Sys.SysUserController">
             <summary>
             用户模块
             </summary>
         </member>
-        <member name="F:OverallAuth_WebApi.Controllers.SysUserController._sysUserService">
+        <member name="F:OverallAuth_WebApi.Controllers.Sys.SysUserController._sysUserService">
             <summary>
             用户服务
             </summary>
         </member>
-        <member name="M:OverallAuth_WebApi.Controllers.SysUserController.#ctor(DomainService.IService.ISysUserService)">
+        <member name="M:OverallAuth_WebApi.Controllers.Sys.SysUserController.#ctor(DomainService.IService.Sys.ISysUserService)">
             <summary>
             构造函数
             </summary>
             <param name="sysUserService">用户服务</param>
         </member>
-        <member name="M:OverallAuth_WebApi.Controllers.SysUserController.TestAutofac">
+        <member name="M:OverallAuth_WebApi.Controllers.Sys.SysUserController.TestAutofac">
             <summary>
             测试Autofac
             </summary>
             <returns></returns>
         </member>
-        <member name="M:OverallAuth_WebApi.Controllers.SysUserController.GetToken(System.String,System.String)">
+        <member name="M:OverallAuth_WebApi.Controllers.Sys.SysUserController.GetToken(System.String,System.String)">
             <summary>
             获取Token
             </summary>
             <param name="userName">用户名</param>
             <param name="password">密码</param>
         </member>
-        <member name="M:OverallAuth_WebApi.Controllers.SysUserController.GetAllUsers">
+        <member name="M:OverallAuth_WebApi.Controllers.Sys.SysUserController.GetAllUsers">
             <summary>
             获取所有用户
             </summary>
             <returns></returns>
         </member>
-        <member name="M:OverallAuth_WebApi.Controllers.SysUserController.TestException">
+        <member name="M:OverallAuth_WebApi.Controllers.Sys.SysUserController.TestException">
             <summary>
             测试异常
             </summary>
             <returns></returns>
             <exception cref="T:System.Exception"></exception>
         </member>
-        <member name="M:OverallAuth_WebApi.Controllers.SysUserController.Login(Model.BusinessModel.InPut.LoginInput)">
+        <member name="M:OverallAuth_WebApi.Controllers.Sys.SysUserController.Login(Model.BusinessModel.InPut.LoginInput)">
             <summary>
             登录
             </summary>

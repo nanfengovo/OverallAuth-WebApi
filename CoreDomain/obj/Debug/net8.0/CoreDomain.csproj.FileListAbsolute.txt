@@ -10,3 +10,7 @@ E:\Code\Study\Webapi\OverallAuth-WebApi\CoreDomain\obj\Debug\net8.0\CoreDomain.d
 E:\Code\Study\Webapi\OverallAuth-WebApi\CoreDomain\obj\Debug\net8.0\refint\CoreDomain.dll
 E:\Code\Study\Webapi\OverallAuth-WebApi\CoreDomain\obj\Debug\net8.0\CoreDomain.pdb
 E:\Code\Study\Webapi\OverallAuth-WebApi\CoreDomain\obj\Debug\net8.0\ref\CoreDomain.dll
+E:\Code\Study\Webapi\OverallAuth-WebApi\CoreDomain\bin\Debug\net8.0\Model.dll
+E:\Code\Study\Webapi\OverallAuth-WebApi\CoreDomain\bin\Debug\net8.0\Model.pdb
+E:\Code\Study\Webapi\OverallAuth-WebApi\CoreDomain\obj\Debug\net8.0\CoreDomain.csproj.AssemblyReference.cache
+E:\Code\Study\Webapi\OverallAuth-WebApi\CoreDomain\obj\Debug\net8.0\CoreDomain.csproj.Up2Date

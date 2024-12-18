@@ -34,5 +34,13 @@ namespace Infrastructure
         public static string sysUser_selectAllSql = @" select * from Sys_User";
 
         #endregion
+
+
+        #region 表SysMenu
+        /// <summary>
+        /// Menu查询全部
+        /// </summary>
+        public static string sysMenu_selectAllSql = @" select Id,CorporationKey,SystemKey,MenuUrl,MenuIcon,MenuTitle,Pid,IsOpen,Sort,CreateTime,CreateUser,Component,RequireAuth,Redirect from Sys_Menu";
+        #endregion
     }
 }

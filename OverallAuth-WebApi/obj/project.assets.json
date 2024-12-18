@@ -725,10 +725,24 @@
           "buildTransitive/net6.0/System.Text.Json.targets": {}
         }
       },
+      "CoreDomain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Model": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CoreDomain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CoreDomain.dll": {}
+        }
+      },
       "DomainService/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "CoreDomain": "1.0.0",
           "Infrastructure": "1.0.0",
           "Utility": "1.0.0"
         },
@@ -2188,6 +2202,11 @@
         "system.text.json.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "CoreDomain/1.0.0": {
+      "type": "project",
+      "path": "../CoreDomain/CoreDomain.csproj",
+      "msbuildProject": "../CoreDomain/CoreDomain.csproj"
     },
     "DomainService/1.0.0": {
       "type": "project",

@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v8.0": {
       "DomainService/1.0.0": {
         "dependencies": {
+          "CoreDomain": "1.0.0",
           "Infrastructure": "1.0.0",
           "Utility": "1.0.0"
         },
@@ -197,6 +198,17 @@
           "System.Text.Encodings.Web": "8.0.0"
         }
       },
+      "CoreDomain/1.0.0": {
+        "dependencies": {
+          "Model": "1.0.0"
+        },
+        "runtime": {
+          "CoreDomain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "Infrastructure/1.0.0": {
         "dependencies": {
           "Dapper": "2.1.35",
@@ -375,6 +387,11 @@
       "sha512": "sha512-OdrZO2WjkiEG6ajEFRABTRCi/wuXQPxeV6g8xvUJqdxMvvuCCEk86zPla8UiIQJz3durtUEbNyY/3lIhS0yZvQ==",
       "path": "system.text.json/8.0.0",
       "hashPath": "system.text.json.8.0.0.nupkg.sha512"
+    },
+    "CoreDomain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "Infrastructure/1.0.0": {
       "type": "project",

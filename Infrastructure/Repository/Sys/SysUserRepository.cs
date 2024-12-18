@@ -1,6 +1,6 @@
 ﻿using Dapper;
 using Infrastructure.DataBaseConnect;
-using Infrastructure.IRepository;
+using Infrastructure.IRepository.Sys;
 using Model.DomainModel;
 using System;
 using System.Collections.Generic;
@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Infrastructure.Repository
+namespace Infrastructure.Repository.Sys
 {
     /// <summary>
     /// 用户仓储服务接口实现

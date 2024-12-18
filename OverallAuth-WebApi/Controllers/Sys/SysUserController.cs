@@ -1,4 +1,4 @@
-﻿using DomainService.IService;
+﻿using DomainService.IService.Sys;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -9,7 +9,7 @@ using Model.DomainModel;
 using OverallAuth_WebApi.PlugInUnit;
 using Utility.Enum;
 
-namespace OverallAuth_WebApi.Controllers
+namespace OverallAuth_WebApi.Controllers.Sys
 {
     /// <summary>
     /// 用户模块
@@ -42,7 +42,7 @@ namespace OverallAuth_WebApi.Controllers
         /// <returns></returns>
         [HttpGet]
         [AllowAnonymous]
-        public String TestAutofac()
+        public string TestAutofac()
         {
             return _sysUserService.TestAutofac();
         }
@@ -92,10 +92,10 @@ namespace OverallAuth_WebApi.Controllers
         /// <returns></returns>
         [HttpPost]
         [AllowAnonymous]
-        public ReceiveStatus<LoginOutPut> Login (LoginInput loginModel)
+        public ReceiveStatus<LoginOutPut> Login(LoginInput loginModel)
         {
-            var result = _sysUserService.GetUserMsg(loginModel.UserName??string.Empty,loginModel.Password??string.Empty);
-            if(result.success)
+            var result = _sysUserService.GetUserMsg(loginModel.UserName ?? string.Empty, loginModel.Password ?? string.Empty);
+            if (result.success)
             {
                 var loginResult = result.data.First();
                 var tokenResult = JwtPlugInUnit.BuildToken(loginModel);

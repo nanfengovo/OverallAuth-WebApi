@@ -63,3 +63,5 @@ E:\Code\Study\Webapi\OverallAuth-WebApi\OverallAuth-WebApi\obj\Debug\net8.0\Over
 E:\Code\Study\Webapi\OverallAuth-WebApi\OverallAuth-WebApi\obj\Debug\net8.0\OverallAuth-WebApi.genruntimeconfig.cache
 E:\Code\Study\Webapi\OverallAuth-WebApi\OverallAuth-WebApi\obj\Debug\net8.0\ref\OverallAuth-WebApi.dll
 E:\Code\Study\Webapi\OverallAuth-WebApi\OverallAuth-WebApi\bin\Debug\net8.0\Autofac.Extras.DynamicProxy.dll
+E:\Code\Study\Webapi\OverallAuth-WebApi\OverallAuth-WebApi\bin\Debug\net8.0\CoreDomain.dll
+E:\Code\Study\Webapi\OverallAuth-WebApi\OverallAuth-WebApi\bin\Debug\net8.0\CoreDomain.pdb
