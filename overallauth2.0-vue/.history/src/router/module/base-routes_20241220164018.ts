@@ -30,21 +30,21 @@
         }
         ]
     },
-    // {
-    //   path: '/menu',
-    //   redirect: '/menu/index',
-    //   meta: { title: '菜单管理' },
-    //   name: "菜单管理",
-    //   component: frameWork,
-    //   children: [
-    //     {
-    //       path: '/menu',
-    //       name: '菜单',
-    //       component: () => import('../../views/menu/index.vue'),
-    //       meta: { title: '菜单', requireAuth: true, affix: true, closable: false },
-    //     }
-    //   ]
-    // },
+    {
+      path: '/menu',
+      redirect: '/menu/index',
+      meta: { title: '菜单管理' },
+      name: "菜单管理",
+      component: frameWork,
+      children: [
+        {
+          path: '/menu',
+          name: '菜单',
+          component: () => import('../../views/menu/index.vue'),
+          meta: { title: '菜单', requireAuth: true, affix: true, closable: false },
+        }
+      ]
+    },
     // {
     //   path: '/user',
     //   meta: { title: '用户管理' },

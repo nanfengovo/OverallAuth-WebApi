@@ -6,31 +6,31 @@
       </span>
       <div class="Login-item">
         <el-input
-          v-model="loginForm.UserName"
-          style="width: 80%; height: 40px"
-          clearable
-          placeholder="请输入用户名"
-          :prefix-icon="User"
-        />
+              v-model="loginForm.UserName"
+              style="width: 80%; height: 40px"
+              clearable
+              placeholder="请输入用户名"
+              :prefix-icon="User"
+            />
       </div>
       <div class="Login-item">
         <el-input
-          v-model="loginForm.Password"
-          style="width: 80%; height: 40px"
-          clearable
-          placeholder="请输入密码"
-          type="password"
-          show-password
-          :prefix-icon="Lock"
-        />
+              v-model="loginForm.Password"
+              style="width: 80%; height: 40px"
+              clearable
+              placeholder="请输入密码"
+              type="password"
+              show-password
+              :prefix-icon="Lock"
+            />
       </div>
       <div class="Login-item">
         <el-button
-          @click="loginClick"
-          type="primary"
-          style="width: 80%; height: 50px"
-        >登录
-        </el-button>
+              @click="loginClick"
+              type="primary"
+              style="width: 80%; height: 50px"
+              >登录</el-button
+            >
       </div>
     </div>
   </div>

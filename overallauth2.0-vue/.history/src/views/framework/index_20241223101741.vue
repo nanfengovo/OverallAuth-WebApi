@@ -134,7 +134,6 @@
         setup() {
           
         const userStore = useUserStore();
-        //修复只有首次debugger才能跳转动态菜单的问题
         userStore.loadMenus();
         const defaultActive = ref("/panel");
         console.log(userStore.menus);  // 打印查看 menus 是否包含数据

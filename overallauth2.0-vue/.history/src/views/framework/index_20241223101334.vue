@@ -134,8 +134,6 @@
         setup() {
           
         const userStore = useUserStore();
-        //修复只有首次debugger才能跳转动态菜单的问题
-        userStore.loadMenus();
         const defaultActive = ref("/panel");
         console.log(userStore.menus);  // 打印查看 menus 是否包含数据
         console.log("Menus from Pinia:", userStore.menus);
@@ -153,22 +151,22 @@
         });
         //菜单项点击事件
         // eslint-disable-next-line no-debugger
-        debugger;
-        function menuItemClick(subMenuItem: RouteRecordRaw) {
-        console.log("subMenuItem", subMenuItem);
-            // tabList中不存在则追加
-            if (!tabsList.value.some((sub) => sub.path == subMenuItem.path)) {
-              console.log("subMenuItem", subMenuItem);
-            tabsList.value.push(subMenuItem);
-            }
-            defaultActive.value = subMenuItem.path;
-        }
+        // debugger;
+        // function menuItemClick(subMenuItem: RouteRecordRaw) {
+        // console.log("subMenuItem", subMenuItem);
+        //     // tabList中不存在则追加
+        //     if (!tabsList.value.some((sub) => sub.path == subMenuItem.path)) {
+        //       console.log("subMenuItem", subMenuItem);
+        //     tabsList.value.push(subMenuItem);
+        //     }
+        //     defaultActive.value = subMenuItem.path;
+        // }
     
         //菜单标签点击事件
-        const tabsClick = (item: string) => {
-            defaultActive.value = item;
-            router.push({ path: item });
-        };
+        // const tabsClick = (item: string) => {
+        //     defaultActive.value = item;
+        //     router.push({ path: item });
+        // };
     
         //菜单标签移除事件
         const tabRemoveClick = (path: any) => {
@@ -182,9 +180,9 @@
             menu,
             tabsList,
             defaultActive,
-            tabsClick,
+            //tabsClick,
             tabRemoveClick,
-            menuItemClick,
+            //menuItemClick,
         };
         },
     });
